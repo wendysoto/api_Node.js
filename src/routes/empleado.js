@@ -4,7 +4,7 @@ const router = express.Router();
 const mysqlConnection = require('../database');
 
 router.get('/', (req, res) => {
-   res.send("Bienvenidos")
+   res.sendFile(__dirname +'/index.html');
 });
 
 //GET EMPLEADOS
