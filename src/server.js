@@ -13,5 +13,5 @@ app.use(require('./routes/empleado'));
 
 //starting Server
 app.listen(app.get('port'), ()=>{
-    console.log('SERVER OK on:  http://localhost:', app.get('port'));
+    console.log('SERVER OK on:..  http://localhost:', app.get('port'));
 })
